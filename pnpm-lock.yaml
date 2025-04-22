@@ -19,7 +19,7 @@ importers:
         version: 1.0.6(@midl-xyz/midl-viem@2.21.36(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.1))(@tanstack/react-query@5.74.4(react@19.1.0))(@types/react@19.1.2)(bitcoinjs-lib@7.0.0-rc.0(typescript@5.8.3))(bufferutil@4.0.9)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(use-sync-external-store@1.4.0(react@19.1.0))(utf-8-validate@5.0.10)(webextension-polyfill@0.12.0)(zod@3.24.1)
       '@midl-xyz/midl-js-executor-react':
         specifier: ^1.0.6
-        version: 1.0.6(1de6fa904a68b04a4559426a967e786d)
+        version: 1.0.6(zxkznmtly3edwdxh6gjodpjihy)
       '@midl-xyz/midl-js-react':
         specifier: ^1.0.6
         version: 1.0.6(@tanstack/react-query@5.74.4(react@19.1.0))(@types/react@19.1.2)(bufferutil@4.0.9)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(use-sync-external-store@1.4.0(react@19.1.0))(utf-8-validate@5.0.10)(webextension-polyfill@0.12.0)(zod@3.24.1)
@@ -39,7 +39,7 @@ importers:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
       viem:
-        specifier: npm:@midl-xyz/midl-viem@^2.21.36
+        specifier: npm:@midl-xyz/midl-viem
         version: '@midl-xyz/midl-viem@2.21.36(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.1)'
       wagmi:
         specifier: ^2.14.16
@@ -638,7 +638,7 @@ packages:
     peerDependencies:
       '@wagmi/core': 2.16.7
       typescript: '>=5.0.4'
-      viem: 2.x
+      viem: npm:@midl-xyz/midl-viem
     peerDependenciesMeta:
       typescript:
         optional: true
@@ -648,7 +648,7 @@ packages:
     peerDependencies:
       '@tanstack/query-core': '>=5.0.0'
       typescript: '>=5.0.4'
-      viem: 2.x
+      viem: npm:@midl-xyz/midl-viem
     peerDependenciesMeta:
       '@tanstack/query-core':
         optional: true
@@ -2083,7 +2083,7 @@ packages:
       '@tanstack/react-query': '>=5.0.0'
       react: '>=18'
       typescript: '>=5.0.4'
-      viem: 2.x
+      viem: npm:@midl-xyz/midl-viem
     peerDependenciesMeta:
       typescript:
         optional: true
@@ -2740,7 +2740,7 @@ snapshots:
       - webextension-polyfill
       - zod
 
-  '@midl-xyz/midl-js-executor-react@1.0.6(1de6fa904a68b04a4559426a967e786d)':
+  '@midl-xyz/midl-js-executor-react@1.0.6(zxkznmtly3edwdxh6gjodpjihy)':
     dependencies:
       '@midl-xyz/contracts': 0.0.10
       '@midl-xyz/midl-js-core': 1.0.6(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(typescript@5.8.3)(use-sync-external-store@1.4.0(react@19.1.0))(utf-8-validate@5.0.10)(webextension-polyfill@0.12.0)(zod@3.24.1)

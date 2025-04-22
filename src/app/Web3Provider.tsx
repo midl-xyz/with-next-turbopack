@@ -7,6 +7,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { WagmiMidlProvider } from "@midl-xyz/midl-js-executor-react";
 import { WagmiProvider } from "wagmi";
 import { useMemo } from "react";
+import { AddressPurpose } from "@midl-xyz/midl-js-core";
 
 export default function Web3Provider({
 	children,
@@ -16,7 +17,7 @@ export default function Web3Provider({
 	return (
 		<WagmiProvider config={wagmiConfig}>
 			<MidlProvider config={midlConfig}>
-				<SatoshiKitProvider>
+				<SatoshiKitProvider purposes={[AddressPurpose.Ordinals]}>
 					<QueryClientProvider client={client}>
 						<WagmiMidlProvider />
 						{children}
