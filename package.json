@@ -31,5 +31,8 @@
     "overrides": {
       "viem": "npm:@midl-xyz/midl-viem"
     }
+  },
+  "overrides": {
+    "viem": "npm:@midl-xyz/midl-viem"
   }
 }
